@@ -10,6 +10,8 @@
 
 5. lokale Repository mit dem Remote-Repository auf GitHub verbinden: --> git remote add origin git@github.com:ThomasLeister/tl-test.git
 
+7. lokal '.gitignore' erstellen
+
 6. Repos abgleichen: --> git pull origin master
 
 
