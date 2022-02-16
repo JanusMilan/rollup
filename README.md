@@ -2,19 +2,31 @@
 
 1. Git Repo erstellen
 
-2. Lokales Code-Verzeichnis Git-fähig machen: --> git init
+2. Lokales Code-Verzeichnis Git-fähig machen um Commiten zu können: --> git init 
 
-3. ssh Schlüssel lokal ma PC erzeugen: --> ssh-keygen
+3. lokale Nutzer erstellen um Commiten zu können: --> git config user.name "milan"
 
-4. ssh Schlüssel in Git eintragen: --> https://jhooq.com/github-permission-denied-publickey/
+3. Mail für lokale Nutzer erstellen: --> git config user.email "janusmm@yahoo.de"
 
-5. lokale Repository mit dem GitHub Remote-Repository über 'origin' verbinden: --> git remote add origin git@github.com:JanusMilan/rollup.git
+4. ssh Schlüssel lokal ma PC erzeugen: --> ssh-keygen
 
-6. Remote verifizieren: --> git remote -v 
+5. ssh Schlüssel in Git eintragen: --> https://jhooq.com/github-permission-denied-publickey/
 
-7. lokal '.gitignore' erstellen
+6. lokale Repository mit dem GitHub Remote-Repository über 'origin' verbinden: --> git remote add origin git@github.com:JanusMilan/rollup.git
 
-6. Änderungen des Main-Branches im Origin-Repo auf den Rechner „ziehen: --> git pull origin main
+7. Remote verifizieren: --> git remote -v 
+
+8. lokal '.gitignore' erstellen
+
+9. Änderungen des Main-Branches im Origin-Repo auf den Rechner „ziehen: --> git pull origin main
+
+10. bestimmen lokale Code die hochgeladen werden soll: --> git add .
+
+11. prüfen welsche Dateien sind erfasst von git im 'Stash': --> git status
+
+12. Commiten Dateien aus dem 'Stash': --> git commit -m "1. Commit"
+
+
 
 
 https://legacy.thomas-leister.de/github-fuer-anfaenger-repository-anlegen-und-code-hochladen/
