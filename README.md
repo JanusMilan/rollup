@@ -14,7 +14,7 @@
 
 7. lokal '.gitignore' erstellen
 
-6. Änderungen des Master-Branches im Origin-Repo auf den Rechner „ziehen: --> git pull origin main
+6. Änderungen des Main-Branches im Origin-Repo auf den Rechner „ziehen: --> git pull origin main
 
 
 https://legacy.thomas-leister.de/github-fuer-anfaenger-repository-anlegen-und-code-hochladen/
