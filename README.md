@@ -22,7 +22,7 @@
 ### pull und fetch für Downstream (lokal Downloaden)  
 9. ERSTES MAL Änderungen des Main-Branches im Origin-Repo auf den Rechner mit pull (fetch + margine) ziehen: --> git pull origin main
 
-9. Später geht pull (fetch + margine) ohne Angabe der Quelle (Git Main) und Ziel (origin): --> git pull origin main 
+9. Später geht pull (fetch + margine) ohne Angabe der Quelle (Git Main) und Ziel (origin): --> git pull -v 
 
 9. ODER 'Fetch' machen:  --> git fetch
 
@@ -47,6 +47,14 @@
 14. ODER JEDES mal Quelle und Ziel des Upstreams geben: --> git pusch origin main
 
 
+# Arbeits Routine
+1. Eine Datei lokal wird geändert
+2. Downstream von git:                   --> git pull -v 
+3. geänderte Datei in Stach einfügen:    --> git add Datei
+4. Commiten:                             --> git commit -m "X. Commit"
+5. Upstreamen auf Git:                   --> git push
+
+# Quellen
 https://legacy.thomas-leister.de/github-fuer-anfaenger-repository-anlegen-und-code-hochladen/
 
 https://legacy.thomas-leister.de/die-wichtigsten-git-kommandos-fuer-anfaenger/
