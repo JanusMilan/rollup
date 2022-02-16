@@ -26,39 +26,54 @@
 8. lokal '.gitignore' erstellen
 
 ### pull und fetch für Downstream (lokal Downloaden)  
-9. ERSTES MAL Änderungen des Main-Branches im Origin-Repo auf den Rechner mit pull (fetch + margine) ziehen: --> git pull origin main
+9. ERSTES MAL Änderungen des Main-Branches im Origin-Repo auf den Rechner mit pull (fetch + margine) ziehen: 
+- git pull origin main
 
-9. Später geht pull (fetch + margine) ohne Angabe der Quelle (Git Main) und Ziel (origin): --> git pull -v 
+9. Später geht pull (fetch + margine) ohne Angabe der Quelle (Git Main) und Ziel (origin): 
+- git pull -v 
 
-9. ODER 'Fetch' machen:  --> git fetch
+9. ODER 'Fetch' machen:  
+- git fetch
 
 ### Commiten
-10. bestimmen lokale Code die hochgeladen werden soll: --> git add .
+10. bestimmen lokale Code die hochgeladen werden soll: 
+- git add .
 
-11. prüfen welsche Dateien sind erfasst von git im 'Stash': --> git status
+11. prüfen welsche Dateien sind erfasst von git im 'Stash': 
+- git status
 
-12. Commiten Dateien aus dem 'Stash': --> git commit -m "1. Commit"
+12. Commiten Dateien aus dem 'Stash': 
+- git commit -m "1. Commit"
 
 
 ### push für Upstream (auf Git Hochladen) 
 
-13. prüfen wie lokale Branch heißt : --> git branch -a
+13. prüfen wie lokale Branch heißt : 
+- git branch -a
 
-14. Falls lokale Branch heißt 'master' und remote 'main' dan lokale umbenenen : --> git branch -m main
+14. Falls lokale Branch heißt 'master' und remote 'main' dan lokale umbenenen : 
+- git branch -m main
 
-16. Beim ERSTEN Hochladen („push“) muss Standard Push-Branch angegeben werden: -->  git push --set-upstream origin main
+16. Beim ERSTEN Hochladen („push“) muss Standard Push-Branch angegeben werden: 
+- git push --set-upstream origin main
 
-14. Beim WEITEREN Hochladen („push“) geht ohne Branch-Angabe: -->  git push
+14. Beim WEITEREN Hochladen („push“) geht ohne Branch-Angabe: 
+- git push
 
-14. ODER JEDES mal Quelle und Ziel des Upstreams geben: --> git pusch origin main
+14. ODER JEDES mal Quelle und Ziel des Upstreams geben: 
+- git pusch origin main
 
 
 # Arbeits Routine
 1. Eine Datei lokal wird geändert
-2. Downstream von git:                   --> git pull -v 
-3. geänderte Datei in Stach einfügen:    --> git add Datei
-4. Commiten:                             --> git commit -m "X. Commit"
-5. Upstreamen auf Git:                   --> git push
+2. Downstream von git:                   
+- git pull -v 
+4. geänderte Datei in Stach einfügen:    
+- git add Datei
+6. Commiten:                             
+- git commit -m "X. Commit"
+8. Upstreamen auf Git:                   
+- git push
 
 # Quellen
 https://legacy.thomas-leister.de/github-fuer-anfaenger-repository-anlegen-und-code-hochladen/
