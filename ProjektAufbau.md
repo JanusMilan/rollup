@@ -11,8 +11,8 @@ Inhalt
 0. Verlauf für Implentation und allererster Bulid und Test 
 
 1. Anpassen index.html 
-- <!-- <script type="module" src="./out-tsc/src/app.js"></script> -->
-- 'out-tsc' ist Pfad wo TSC die Datein concateniert, dieser können im HTML ausgeführt werden
+   - <!-- <script type="module" src="./out-tsc/src/app.js"></script> -->
+   - 'out-tsc' ist Pfad wo TSC die Datein concateniert, dieser können im HTML ausgeführt werden
 
 2. Installieren rollup
 - 'npm install --save-dev rollup typescript'
