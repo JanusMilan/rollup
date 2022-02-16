@@ -10,6 +10,8 @@
 
 5. lokale Repository mit dem GitHub Remote-Repository über 'origin' verbinden: --> git remote add origin git@github.com:JanusMilan/rollup.git
 
+6. Remote verifizieren: --> git remote -v 
+
 7. lokal '.gitignore' erstellen
 
 6. Änderungen des Master-Branches im Origin-Repo auf den Rechner „ziehen: --> git pull origin master
