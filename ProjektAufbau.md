@@ -1,6 +1,6 @@
 # Tutorium 
-1. https://www.thisdot.co/blog/how-to-setup-a-typescript-project-using-rollup-js
-2.nhttps://www.thisdot.co/blog/how-to-serve-a-single-page-application-spa-using-rollup-js-and-web-dev
+  - https://www.thisdot.co/blog/how-to-setup-a-typescript-project-using-rollup-js
+  - https://www.thisdot.co/blog/how-to-serve-a-single-page-application-spa-using-rollup-js-and-web-dev
 
 # Inhalt
 - Aufsetzen ein TypeScript Project using Rollup.js
