@@ -1,14 +1,12 @@
-Tutorium 
-1. 
-https://www.thisdot.co/blog/how-to-setup-a-typescript-project-using-rollup-js
-2.
-https://www.thisdot.co/blog/how-to-serve-a-single-page-application-spa-using-rollup-js-and-web-dev
+# Tutorium 
+1. https://www.thisdot.co/blog/how-to-setup-a-typescript-project-using-rollup-js
+2.nhttps://www.thisdot.co/blog/how-to-serve-a-single-page-application-spa-using-rollup-js-and-web-dev
 
-0.0 Inhalt
-    - Aufsetzen ein TypeScript Project using Rollup.js
-    - Es ist KEIN SPA sondern ein eifaches Projekt mit Math Funktien 
+# Inhalt
+- Aufsetzen ein TypeScript Project using Rollup.js
+- Es ist KEIN SPA sondern ein eifaches Projekt mit Math Funktien 
 
-0. Verlauf für Implentation und allererster Bulid und Test 
+# Verlauf für Implentation und allererster Bulid und Test 
 
 1. Anpassen index.html 
    - <script type="module" src="./out-tsc/src/app.js"></script>  
