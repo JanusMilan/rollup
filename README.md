@@ -2,9 +2,9 @@
 
 1. Git Repo erstellen
 
-2. Lokales Code-Verzeichnis Git-fähig machen: --> git init
+2. Lokales Code-Verzeichnis Git-fähig machen um Commiten zu können: --> git init 
 
-3. lokale Nutzer erstellen: --> git config user.name "milan"
+3. lokale Nutzer erstellen um Commiten zu können: --> git config user.name "milan"
 
 3. Mail für lokale Nutzer erstellen: --> git config user.email "janusmm@yahoo.de"
 
