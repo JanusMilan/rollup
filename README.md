@@ -2,20 +2,15 @@
 
 1. Git Repo erstellen
 
-2. Lokales Code-Verzeichnis Git-fähig machen
---> git init
+2. Lokales Code-Verzeichnis Git-fähig machen: --> git init
 
-3. ssh Schlüssel lokal ma PC erzeugen
---> ssh-keygen
+3. ssh Schlüssel lokal ma PC erzeugen: --> ssh-keygen
 
-4. ssh Schlüssel in Git eintragen
---> https://jhooq.com/github-permission-denied-publickey/
+4. ssh Schlüssel in Git eintragen: --> https://jhooq.com/github-permission-denied-publickey/
 
-5. lokale Repository mit dem Remote-Repository auf GitHub verbinden
---> git remote add origin git@github.com:ThomasLeister/tl-test.git
+5. lokale Repository mit dem Remote-Repository auf GitHub verbinden: --> git remote add origin git@github.com:ThomasLeister/tl-test.git
 
-6. Repos abgleichen 
---> git pull origin master
+6. Repos abgleichen: --> git pull origin master
 
 
 https://legacy.thomas-leister.de/github-fuer-anfaenger-repository-anlegen-und-code-hochladen/
