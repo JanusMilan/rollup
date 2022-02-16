@@ -5,42 +5,42 @@ https://www.thisdot.co/blog/how-to-setup-a-typescript-project-using-rollup-js
 https://www.thisdot.co/blog/how-to-serve-a-single-page-application-spa-using-rollup-js-and-web-dev
 
 Inhalt
---> Aufsetzen ein TypeScript Project using Rollup.js
---> Es ist KEIN SPA sondern ein eifaches Projekt mit Math Funktien 
+- Aufsetzen ein TypeScript Project using Rollup.js
+- Es ist KEIN SPA sondern ein eifaches Projekt mit Math Funktien 
 
 0. Verlauf für Implentation und allererster Bulid und Test 
 
 1. Anpassen index.html 
---> <!-- <script type="module" src="./out-tsc/src/app.js"></script> -->
---> 'out-tsc' ist Pfad wo TSC die Datein concateniert, dieser können im HTML ausgeführt werden
+- <!-- <script type="module" src="./out-tsc/src/app.js"></script> -->
+- 'out-tsc' ist Pfad wo TSC die Datein concateniert, dieser können im HTML ausgeführt werden
 
 2. Installieren rollup
---> 'npm install --save-dev rollup typescript'
+- 'npm install --save-dev rollup typescript'
 
 3. Installieren typescript global
---> 'npm install --save-dev typescript -g'
+- 'npm install --save-dev typescript -g'
 
 4. Installieren @open-wc/building-rollup 
---> '@open-wc/building-rollup' ==> Für Interaktion zwischen Rollup und TS
---> 'deepmerge' ==> Für Mergen
---> 'rimraf' für rm -rf (Folder löschen)
---> 'npm install --save-dev @open-wc/building-rollup rimraf deepmerge'
+- '@open-wc/building-rollup' ==> Für Interaktion zwischen Rollup und TS
+- 'deepmerge' ==> Für Mergen
+- 'rimraf' für rm -rf (Folder löschen)
+- 'npm install --save-dev @open-wc/building-rollup rimraf deepmerge'
 
 5. App Packet Configuration 'package.json' erstellen
---> npm init -y
+- npm init -y
 
 6. Typescript Configuration 'tsconfig.json'  erstellen und anpassen
---> 'tsc --init' ==> erstellt 'tsconfig.json'
---> Anpassen 'tsconfig.json' 
+- 'tsc --init' ==> erstellt 'tsconfig.json'
+- Anpassen 'tsconfig.json' 
 
 7. Weitere tools sind notwendig:
---> rollup plugin for integration between Rollup.js and TypeScript 
-    --> @open-wc/building-rollup
---> UNIX command rm -rf for Node.js
-    --> rimraf
---> tool to merge enumerable properties or more objects deeply.    
-    --> deepmerge
---> npm install --save-dev @open-wc/building-rollup rimraf deepmerge   
+- rollup plugin for integration between Rollup.js and TypeScript 
+-- @open-wc/building-rollup
+- UNIX command rm -rf for Node.js
+-- rimraf
+- tool to merge enumerable properties or more objects deeply.    
+-- deepmerge
+- npm install --save-dev @open-wc/building-rollup rimraf deepmerge   
 
 8. Rollup Configuration 'rollup.config.js' 
 --> Manuell erstellen
