@@ -1,0 +1,44 @@
+{
+  "compilerOptions": {
+    /* Visit https://aka.ms/tsconfig.json to read more about this file */
+
+    /* JavaScript and Laufzeitumgebung */
+    "target": "es2018",                                  
+        /* "target" definiert die JavaScript-Version uns somit die JS Funktionalitäten, 
+            auf die TypeScript kompiliert wird */
+    "lib": ["es2017"],                                        
+        /* "lib" gibt an, welche Möglichkeiten die Laufzeitumgebung (runtime facilities) hat.
+          Ideallerweise sollen "target" und "lib" übereinstimmen.
+          Manschmal kann HIER zum Problemen kommen 
+        */
+
+    /* Module Definition */
+    "module": "esnext",                                  
+        /* Module gibt an welches JS Modulen-Syntax aus dem angegebenen TS ausgegeben werden soll. */
+    "rootDir": "./",                                  
+        /* Specify the root folder within your source files. */
+    "moduleResolution": "node",                       
+        /* Gibt es eine Strategie, wie Module aufgelöst werden, 
+          die in js-Dateien aus dem angegebenen Typescript ausgegeben werden. 
+          Option 'node' für die CommonJS Module-Implementierung von Node.js
+        */
+
+    /* Ausgabe */
+    "outDir": "out-tsc",     
+
+    /* Specify an output folder for all emitted files. */
+    "noEmitOnError": true,                               
+
+    /* Interop Einschränkungen */
+    "esModuleInterop": true,                             
+        /* Emit additional JavaScript to ease support for importing CommonJS modules. 
+          By default (with esModuleInterop false or not set) TypeScript 
+          treats CommonJS/AMD/UMD modules similar to ES6 modules. */
+
+    /* Type Checking */
+    "strict": true,                                      
+        /* Enable all strict type-checking options. */
+  },
+  /*  Welche Files sind zu transpilieren */
+  "include": ["./src/**/*.ts"]
+}

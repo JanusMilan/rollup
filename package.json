@@ -1,0 +1,24 @@
+{
+  "name": "1ru",
+  "version": "1.0.0",
+  "description": "Tutorium \r https://www.thisdot.co/blog/how-to-serve-a-single-page-application-spa-using-rollup-js-and-web-dev",
+  "main": "index.js",
+  "scripts": {
+    "tsc:watch": "tsc --watch",
+    "web-dev-server": "web-dev-server --config web-dev-server.config.js",
+    "start": "concurrently --kill-others --names tsc,web-dev-server \"npm run tsc:watch\" \"npm run web-dev-server\"",
+    "build": "rimraf dist && tsc && rollup -c rollup.config.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@open-wc/building-rollup": "^2.0.1",
+    "@web/dev-server": "^0.1.29",
+    "concurrently": "^7.0.0",
+    "deepmerge": "^4.2.2",
+    "rimraf": "^3.0.2",
+    "rollup": "^2.67.2",
+    "typescript": "^4.5.5"
+  }
+}
