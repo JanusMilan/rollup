@@ -1,4 +1,6 @@
 
+https://github.com/JanusMilan/rollup
+
 1. Installation
    - npm install --save-dev rollup 
    - Alles unten ist nicht notwendig zu machen, da 'package.json' und installation von 'rollup' es regelt ???
