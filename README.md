@@ -12,10 +12,13 @@
 
 6. Remote verifizieren: --> git remote -v 
 
-7. lokal '.gitignore' erstellen
+8. lokal '.gitignore' erstellen
 
-6. Änderungen des Main-Branches im Origin-Repo auf den Rechner „ziehen: --> git pull origin main
+9. Änderungen des Main-Branches im Origin-Repo auf den Rechner „ziehen: --> git pull origin main
 
+10. bestimmen lokale Code die hochgeladen werden soll: --> git add .
+
+11. prüfen welsche Dateien sind erfasst von git im 'Stash': --> git status
 
 https://legacy.thomas-leister.de/github-fuer-anfaenger-repository-anlegen-und-code-hochladen/
 
