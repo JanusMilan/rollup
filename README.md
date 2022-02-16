@@ -1,5 +1,5 @@
 
-
+# Lokales Projekt auf neue Git Repo hochladen
 1. Git Repo erstellen
 
 2. Lokales Code-Verzeichnis Git-fähig machen um Commiten zu können: 
@@ -19,13 +19,13 @@
 
 8. lokal '.gitignore' erstellen
 
-///////////////////////////////////// pull und fetch für Downstream (lokal Downloaden)  ///////////////////////////
+## pull und fetch für Downstream (lokal Downloaden)  
 9. ERSTES MAL Änderungen des Main-Branches im Origin-Repo auf den Rechner mit pull (fetch + margine) ziehen: --> git pull origin main
 
 9. Später geht pull (fetch + margine) ohne Angabe der Quelle (Git Main) und Ziel (origin): --> git pull origin main 
 
 9. ODER 'Fetch' machen:  --> git fetch
-////////////////////////////////////////////////////////////////
+
 
 10. bestimmen lokale Code die hochgeladen werden soll: --> git add .
 
@@ -37,13 +37,12 @@
 
 14. Falls lokale Branch heißt 'master' und remote 'main' dan lokale umbenenen : --> git branch -m main
 
-///////////////////////////////////// push für Upstream (auf Git Hochladen)  ///////////////////////////
+## push für Upstream (auf Git Hochladen) 
 14. Beim ERSTEN Hochladen („push“) muss Standard Push-Branch angegeben werden: -->  git push --set-upstream origin main
 
 14. Beim WEITEREN Hochladen („push“) geht ohne Branch-Angabe: -->  git push
 
 14. ODER JEDES mal Quelle und Ziel des Upstreams geben: --> git pusch origin main
-////////////////////////////////////////////////////////////////
 
 
 https://legacy.thomas-leister.de/github-fuer-anfaenger-repository-anlegen-und-code-hochladen/
