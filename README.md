@@ -8,7 +8,7 @@
 
 4. ssh Schlüssel in Git eintragen: --> https://jhooq.com/github-permission-denied-publickey/
 
-5. lokale Repository mit dem Remote-Repository auf GitHub verbinden: --> git remote add origin git@github.com:JanusMilan/rollup.git
+5. lokale Repository mit dem GitHub Remote-Repository über 'origin' verbinden: --> git remote add origin git@github.com:JanusMilan/rollup.git
 
 7. lokal '.gitignore' erstellen
 
