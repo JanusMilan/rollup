@@ -26,6 +26,9 @@
 
 12. Commiten Dateien aus dem 'Stash': --> git commit -m "1. Commit"
 
+13. Beim ERSTEN Hochladen („push“) muss Standard Push-Branch angegeben werden: -->  git push --set-upstream origin main
+
+13. Beim WEITEREN Hochladen („push“) geht ohne Branch-Angabe: -->  git push
 
 
 
