@@ -19,26 +19,28 @@
 
 8. lokal '.gitignore' erstellen
 
-## pull und fetch für Downstream (lokal Downloaden)  
+### pull und fetch für Downstream (lokal Downloaden)  
 9. ERSTES MAL Änderungen des Main-Branches im Origin-Repo auf den Rechner mit pull (fetch + margine) ziehen: --> git pull origin main
 
 9. Später geht pull (fetch + margine) ohne Angabe der Quelle (Git Main) und Ziel (origin): --> git pull origin main 
 
 9. ODER 'Fetch' machen:  --> git fetch
 
-
+### Commiten
 10. bestimmen lokale Code die hochgeladen werden soll: --> git add .
 
 11. prüfen welsche Dateien sind erfasst von git im 'Stash': --> git status
 
 12. Commiten Dateien aus dem 'Stash': --> git commit -m "1. Commit"
 
+
+### push für Upstream (auf Git Hochladen) 
+
 13. prüfen wie lokale Branch heißt : --> git branch -a
 
 14. Falls lokale Branch heißt 'master' und remote 'main' dan lokale umbenenen : --> git branch -m main
 
-## push für Upstream (auf Git Hochladen) 
-14. Beim ERSTEN Hochladen („push“) muss Standard Push-Branch angegeben werden: -->  git push --set-upstream origin main
+16. Beim ERSTEN Hochladen („push“) muss Standard Push-Branch angegeben werden: -->  git push --set-upstream origin main
 
 14. Beim WEITEREN Hochladen („push“) geht ohne Branch-Angabe: -->  git push
 
