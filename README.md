@@ -5,17 +5,23 @@
 2. Lokales Code-Verzeichnis Git-fähig machen um Commiten zu können: 
 - git init 
 
-3. lokale Nutzer erstellen um Commiten zu können: --> git config user.name "milan"
+3. lokale Nutzer erstellen um Commiten zu können: 
+- git config user.name "milan"
 
-3. Mail für lokale Nutzer erstellen: --> git config user.email "janusmm@yahoo.de"
+3. Mail für lokale Nutzer erstellen: 
+- git config user.email "janusmm@yahoo.de"
 
-4. ssh Schlüssel lokal ma PC erzeugen: --> ssh-keygen
+4. ssh Schlüssel lokal ma PC erzeugen: 
+- ssh-keygen
 
-5. ssh Schlüssel in Git eintragen: --> https://jhooq.com/github-permission-denied-publickey/
+5. ssh Schlüssel in Git eintragen: 
+- https://jhooq.com/github-permission-denied-publickey/
 
-6. lokale Repository mit dem GitHub Remote-Repository über 'origin' verbinden: --> git remote add origin git@github.com:JanusMilan/rollup.git
+6. lokale Repository mit dem GitHub Remote-Repository über 'origin' verbinden: 
+- git remote add origin git@github.com:JanusMilan/rollup.git
 
-7. Remote Sever verifizieren: --> git remote -v 
+7. Remote Sever verifizieren: 
+- git remote -v 
 
 8. lokal '.gitignore' erstellen
 
