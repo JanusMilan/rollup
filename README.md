@@ -2,7 +2,8 @@
 
 1. Git Repo erstellen
 
-2. Lokales Code-Verzeichnis Git-fähig machen um Commiten zu können: --> git init 
+2. Lokales Code-Verzeichnis Git-fähig machen um Commiten zu können: 
+- git init 
 
 3. lokale Nutzer erstellen um Commiten zu können: --> git config user.name "milan"
 
